@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Horizon Travels</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="../style/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -10,29 +10,34 @@
     <img src="../assets/logo.jpeg" id="logo">
     <nav>
         <a href="../index.html">Inicio</a>
-        <a href="./destinos.html">Destinos</a>
-        <a href="./hoteles.html">Hoteles</a>
-        <a href="./vuelos.html">Vuelos</a>
-        <a href="./contacto.html">Contacto</a>
+        <a href="../pages/destinos.html">Destinos</a>
+        <a href="../pages/hoteles.html">Hoteles</a>
+        <a href="../pages/vuelos.html">Vuelos</a>
+        <a href="../pages/contacto.html">Contacto</a>
     </nav>
 </div>
-      <main>
-        <div class="container">
-            <h1>Contacto - Agencia de Viajes</h1>
-            <div class="contact-form">
-                <form action="/submit_contact" method="post">
-                    <label for="name">Nombre:</label><br>
-                    <input type="text" id="name" name="name"><br>
-                    <label for="email">Correo electrónico:</label><br>
-                    <input type="email" id="email" name="email"><br>
-                    <label for="message">Mensaje:</label><br>
-                    <textarea id="message" name="message"></textarea><br>
-                    <input type="submit" value="Enviar">
-                </form>
-            </div>
-            <div class="paquetes-content"> 
-                <h1>Encuentra los mejores hoteles</h1>
-          </main>
+<body>
+
+    <h1>Formulario de Contacto</h1>
+    
+    <form action="/submit_form" method="post">
+      <label for="fname">Nombre</label>
+      <input type="text" id="fname" name="firstname" placeholder="Tu nombre">
+    
+      <label for="lname">Apellido</label>
+      <input type="text" id="lname" name="lastname" placeholder="Tu apellido">
+    
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Tu email">
+    
+      <label for="phone">Celular</label>
+      <input type="text" id="phone" name="phone" placeholder="1144444444">
+    
+      <label for="message">Consulta</label>
+      <textarea id="message" name="message" placeholder="Detalle su consulta" style="height:200px"></textarea>
+    
+      <button type="submit">Enviar</button>
+    </form>
         <footer>
             <div class="footer-content">
                 <div class="footer-section">
