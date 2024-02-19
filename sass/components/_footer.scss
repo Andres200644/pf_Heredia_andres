@@ -1,0 +1,26 @@
+$color-fondo-footer: #333;
+$color-texto-footer: white;
+
+footer {
+  background-color: $color-fondo-footer;
+  color: $color-texto-footer;
+  padding: 20px;
+  text-align: center;
+
+  .seccion {
+    margin-bottom: 15px;
+
+    &.mapa {
+      float: right;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+}
