@@ -462,15 +462,15 @@ button:hover {
 }
 
 .container {
-    width: 80%;
+    width: 95%;
     margin: auto;
     justify-content: center;
     
 }
 .payment-method {
     border: 1px solid #ccc;
-    padding: 50px;
-    margin-bottom: 50px;
+    padding: 70px;
+    margin-bottom: 60px;
     text-align: center; /* Centra el texto */
     justify-content: center;
     align-items: center
