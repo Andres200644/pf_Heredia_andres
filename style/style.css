@@ -147,6 +147,27 @@ section {
   justify-content: space-around;
 }
 
+.free-cancellation {
+  background-color: #00FFAA; 
+  padding: 20px; 
+}
+
+.reviews {
+  display: flex; 
+  justify-content:space-between; 
+  overflow-x: auto;/
+}
+
+.review-card {
+  width: 200px; /* Ajusta este valor al tamaño deseado para tus tarjetas de reseñas */
+  margin: 10px; /* Esto separa las tarjetas de reseñas */
+}
+
+.review-card img {
+  width: 100%; /* Esto hace que la imagen ocupe todo el ancho de la tarjeta de reseñas */
+  height: auto; /* Esto mantiene la proporción de la imagen */
+}
+
 .card {
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -163,6 +184,83 @@ section {
 .card p {
   margin: 0;
   padding: 0;
+}
+.destinos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  width: 200px; 
+  margin: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.destinos {
+  border: 1px solid #ccc;
+  width: 300px;
+  margin: 10px;
+}
+.destinos img {
+  width: 100%; 
+  height: auto; 
+  justify-content: space-between;
+}
+.container-lugares {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto; /
+}
+
+.card-lugares {
+  flex: 0 0 auto; 
+  width: 200px; 
+  margin: 10px; 
+  justify-content: space-between;
+}
+
+.card-lugares img {
+  width: 100%; 
+  height: auto; 
+}
+.tour-card {
+  width: 25%; 
+  box-sizing: border-box; 
+  width: 300;
+  padding: 10px; 
+  justify-content: space-between;
+}
+
+.tour-card img {
+  width: 100%; 
+  height: auto; 
+  justify-content: space-between;
+  text-align: center;
+}
+.destinos-content {
+  padding: 15px;
+}
+.attraction-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.attraction {
+  border: 1px solid #ccc;
+  width: 200px;
+  margin: 10px;
+}
+.attraction img {
+  width: 100%;
+  height: auto;
+}
+.attraction-content {
+  padding: 15px;
+}
+.attraction-content h4, .attraction-content p {
+  margin: 0;
+}
+.card-content h4, .card-content p {
+  margin: 0;
 }
 
 .price {
@@ -440,14 +538,6 @@ button:hover {
 
 .card-title {
   font-size: 30px
-}
-
-.carousel {
-  margin: 10px;
-}
-
-.carousel img {
-  border-radius: 15px 15px 0 0;
 }
 
 .events-card {
