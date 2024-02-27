@@ -24,6 +24,28 @@ body h1{
 div h1{
   text-align: center;
  }
+ .header {
+  background-size: cover;
+  color: white;
+  padding: 50px;
+  width: 120px;
+  height: 120px;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 36px;
+  color: #000;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+}
+
+form {
+  display: flex;
+}
 
 
 .container {
@@ -102,7 +124,7 @@ div h1{
   position: center;
   top: 30px; 
   left: 30px; 
-  color: #ffffff;
+  color: #000000;
 }
 
 footer {
@@ -159,13 +181,13 @@ section {
 }
 
 .review-card {
-  width: 200px; /* Ajusta este valor al tamaño deseado para tus tarjetas de reseñas */
-  margin: 10px; /* Esto separa las tarjetas de reseñas */
+  width: 200px;
+  margin: 10px; 
 }
 
 .review-card img {
-  width: 100%; /* Esto hace que la imagen ocupe todo el ancho de la tarjeta de reseñas */
-  height: auto; /* Esto mantiene la proporción de la imagen */
+  width: 100%; 
+  height: auto; 
 }
 
 .card {
@@ -207,8 +229,12 @@ section {
 }
 .container-lugares {
   display: flex;
-  justify-content: space-between;
-  overflow-x: auto; /
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .card-lugares {
@@ -319,6 +345,46 @@ main h2 {
   padding: 1em;
 }
 
+.hoteles {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  justify-content: left;
+}
+
+.hoteles img {
+width: 400px; 
+height: 250px; 
+object-fit: cover; 
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+justify-content: space-between;
+object-fit: cover;
+}
+
+.hoteles h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.hoteles p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.highlight {
+  color: #284296;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 1.2rem;
+  color: #0074d9;
+}
 .plane {
   border: 1px solid #ccc;
   display:flex;
