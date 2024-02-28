@@ -9,6 +9,13 @@
       background-color: white;
   }
 }
+@media screen and (max-width: 600px) {
+  body {
+      font-size: 14px; 
+      background-color: lightgray; 
+     
+  }
+}
 
 body, html {
   margin: 0;
