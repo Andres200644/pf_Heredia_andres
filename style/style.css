@@ -233,14 +233,16 @@ section {
   border: none; 
 }
 .container-contacto {
-  max-width: 200px;
+  max-width: 500px;
   margin: 0 auto;
   padding: 20px;
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 80px;
+  width: 100%;
 }
-h1 {
+h2 {
   text-align: center;
   color: #333;
 }
@@ -250,6 +252,7 @@ label {
   font-weight: bold;
 }
 input[type="text"],
+input[type="email"],
 textarea {
   width: 100%;
   padding: 10px;
@@ -258,8 +261,8 @@ textarea {
   margin-bottom: 20px;
 }
 input[type="submit"] {
-  background-color: #007bff;
-  color: #ffffff;
+  background-color: green;
+  color: white;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -267,6 +270,27 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
   background-color: #0056b3;
+}
+.container-tarjetas {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.payment-method {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.method {
+  text-align: center;
+}
+.method img {
+  max-width: 220px;
+  margin-bottom: 10px;
 }
 
 .tour img {
@@ -493,7 +517,7 @@ div h2{
   margin-bottom: 1em;
 }
 .container {
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 .title {

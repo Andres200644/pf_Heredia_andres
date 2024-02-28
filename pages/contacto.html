@@ -16,41 +16,38 @@
         <a href="../pages/contacto.html">Contacto</a>
     </nav>
 </div>
+<h1>Formulario de Contacto</h1>
 <section>
-    <h1>Formulario de Contacto</h1>
     <div class="container-contacto">
-        <h1>Contacto</h1>
         <form action="enviar.php" method="post">
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos" required>
             <label for="email">Email:</label>
-            <input type="text" id="email" name="email" required>
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+            <label for="celular">Celular:</label>
+            <input type="tel" id="celular" name="celular" placeholder="Tu número de celular" required>
             <input type="submit" value="Enviar">
-        </form> 
+        </form>
 </section>
-      <section>
-        <body>
-            <body>
-                <div class="container">
-                    <div class="payment-method">
-                        <h2>Tarjeta de Crédito</h2>
-                        <img src="../assets/visa mastercard.jpeg" alt="Descripción de la imagen">
-                        <p>Aceptamos Visa, MasterCard y American Express.</p>
-                    </div>
-                    <div class="payment-method">
-                        <h2>Transferencia Bancaria</h2>
-                        <img src="../assets/transferencia bancaria.jpg" alt="Descripción de la imagen">
-                        <p>Puedes realizar una transferencia a nuestra cuenta bancaria.</p>
-                    </div>
-                    <div class="payment-method">
-                        <h2>PayPal</h2>
-                        <img src="../assets/paypal logo.jpg"  alt="Descripción de la imagen">
-                        <p>También aceptamos pagos a través de PayPal.</p>
-                    </div>
-                </div>
-      </section>
+<h2>Metodos de pago</h2>
+<section>
+    <div class="container">
+        <div class="payment-method">
+            <div class="method">
+                <img src="../assets/visa mastercard.jpeg" alt="Tarjeta de Crédito">
+                <p>Aceptamos Visa, MasterCard y American Express.</p>
+            </div>
+            <div class="method">
+                <img src="../assets/transferencia bancaria.jpg" alt="Transferencia Bancaria">
+                <p>Puedes realizar una transferencia a nuestra cuenta bancaria.</p>
+            </div>
+            <div class="method">
+                <img src="../assets/paypal logo.jpg" alt="PayPal">
+                <p>También aceptamos pagos a través de PayPal.</p>
+            </div>
+</section>
     </form>
         <footer>
             <div class="footer-content">
