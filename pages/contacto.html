@@ -20,24 +20,17 @@
 
     <h1>Formulario de Contacto</h1>
     
-    <form action="/submit_form" method="post">
-      <label for="fname">Nombre</label>
-      <input type="text" id="fname" name="firstname" placeholder="Tu nombre">
-    
-      <label for="lname">Apellido</label>
-      <input type="text" id="lname" name="lastname" placeholder="Tu apellido">
-    
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="Tu email">
-    
-      <label for="phone">Celular</label>
-      <input type="text" id="phone" name="phone" placeholder="1144444444">
-    
-      <label for="message">Consulta</label>
-      <textarea id="message" name="message" placeholder="Detalle su consulta" style="height:200px"></textarea>
-    
-      <button type="submit">Enviar</button>
-      <h1>Metodos de pago</h1>
+    <div class="container-contacto">
+        <h1>Contacto</h1>
+        <form action="enviar.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>     
       <section>
         <body>
             <body>
