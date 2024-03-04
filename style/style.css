@@ -281,13 +281,30 @@ section {
   height: auto; 
   justify-content: space-between;
 }
-.tour {
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.tour-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
   padding: 20px;
-  margin-bottom: 20px;
-  border: none; 
+  width: 300px;
 }
+
+.tour-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.tour-card h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.tour-card p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
 .container-contacto {
   max-width: 500px;
   margin: 0 auto;
@@ -960,7 +977,7 @@ button:hover {
     border: 1px solid #ccc;
     padding: 70px;
     margin-bottom: 60px;
-    text-align: center; /* Centra el texto */
+    text-align: center; 
     justify-content: center;
     align-items: center
     ;
