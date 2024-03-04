@@ -757,6 +757,7 @@ h1 {
   flex-wrap: wrap;
   gap: 20px;
   float: left;
+  justify-content: center ;
 }
 .hotel-card {
   background-color: #fff;
@@ -764,8 +765,7 @@ h1 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   width: calc(50% - 10px);
-  justify-content: left;
-  float: left;
+  justify-content: center;
 }
 .hotel-image {
   max-width: 100%;
