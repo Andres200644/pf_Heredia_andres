@@ -174,7 +174,6 @@ form {
  }
 
  section h1{
-
   position: center;
   top: 30px; 
   left: 30px; 
@@ -182,7 +181,7 @@ form {
 }
 
 footer {
-  background-color: black;
+  background-color: #003646; 
   color: white;
   padding: 20px;
 }
@@ -514,7 +513,7 @@ input[type="submit"]:hover {
   color: rgb(2, 1, 1);
 }
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -819,7 +818,7 @@ h1 {
   font-weight: bold;
 }
 .savings {
-  color: #28a745;
+  color: #a72828;
   font-weight: bold;
 }
 .btn-details {
