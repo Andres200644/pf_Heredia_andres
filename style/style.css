@@ -377,6 +377,62 @@ input[type="submit"]:hover {
   justify-content: space-between;
   text-align: center;
 }
+.att img {
+  max-width: 50%;
+  height: auto;
+  justify-content: center;
+  justify-items: center;
+  display: block;
+    margin: auto;
+}
+
+.att-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  justify-content: left;
+}
+
+.att-card img {
+  max-width: 100%;
+}
+
+.price {
+  font-weight: bold;
+  color: #007bff;
+}
+
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+.discount {
+  color: red;
+  font-weight: normal;
+}
+.likes {
+  color: #ff6347;
+}
+
+.popular-destinations {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+}
+
+.destination-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+}
+
+.destination-card img {
+  max-width: 100%;
+}
 .lugar {
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -472,19 +528,129 @@ main h2 {
   justify-content: space-between;
 
 }
+.ad-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.ad-item {
+  flex: 1;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  position: relative;
+}
+
+.ad-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logos-item p {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+.logos-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.logos-item {
+  flex: 1;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  position: relative;
+}
+
+.logos-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logos-item p {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+.logos-item p {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+.airline-container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.airlines {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.airline {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.airline img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.car-rental {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.car {
+  width: 23%;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.car img {
+  max-width: 100%;
+  height: auto;
+}
+
+.car h2, .car p {
+  margin: 5px 0;
+  font-weight: bold;
+}
 
 .hotels {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-.hotel {
-  border: 1px solid #ccc;
-  border-top: 5px solid white;
-  width: 23%;
-  margin: 1%;
-  float: left;
-  padding: 1em;
 }
 
 .hoteles {
@@ -536,13 +702,26 @@ object-fit: cover;
   height: 250px;
 }
 
-.hotel img {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: space-between;
+.hotel {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
 }
 
+.hotel img {
+  width: 55%;
+}
+
+.hotel h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.hotel p {
+  font-size: 0.9rem;
+  margin: 0;
+}
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -581,20 +760,28 @@ div h2{
   font-size: 2em;
   margin-bottom: 1em;
 }
-.vuelos {
-  border: 1px solid #ccc;
-  border-top: 5px solid white;
-  width: 23%;
-  margin: 1%;
-  float: left;
-  padding: 1em;
+.card {
+  width: 25%;
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
-.vuelos img {
+
+.vuelos-card img {
   width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: space-between;
-  display: inline-block;
+  border-radius: 5px 5px 0 0;
+}
+
+.vuelos h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.vuelos p {
+  font-size: 1rem;
+  margin: 5px 0;
 }
 .image-container img {
     width: 30%;
