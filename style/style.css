@@ -767,6 +767,7 @@ h1 {
   width: calc(50% - 10px);
   justify-content: center;
 }
+
 .hotel-image {
   max-width: 100%;
   height: auto;
@@ -989,10 +990,12 @@ button:hover {
   margin-bottom: 2%;
 }
 
+.hotel-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-
 .container::after {
   content: "";
   clear: both;
