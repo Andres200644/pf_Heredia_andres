@@ -676,7 +676,7 @@ main h2 {
   padding: 20px;
   margin: 20px;
   border-radius: 8px;
-  justify-content: left;
+  justify-content: center;
 }
 
 .hoteles img {
@@ -686,24 +686,30 @@ object-fit: cover;
 max-width: 100%;
 height: auto;
 border-radius: 8px;
-justify-content: space-between;
-object-fit: cover;
+text-align: center;
+justify-items: center;
 }
 
 .hoteles h2 {
   font-size: 1.5rem;
   margin-top: 10px;
+  text-align: center;
+  color: #333;
   text-align: left;
 }
 
 .hoteles p {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  text-align: center;
   color: #333;
+  text-align: left;
 }
 
 .highlight {
   color: #284296;
   font-weight: bold;
+  justify-content: left;
 }
 
 .price {
