@@ -112,6 +112,7 @@ form {
 }
 
 .navbar {
+  flex-direction: column;
   display: flex;
   align-items: center; 
   background-color: #003646; 
@@ -142,12 +143,13 @@ form {
 }
 
 .main-content {
+  
  background-image: linear-gradient(to right, #000046, #1CB5E0);
  color: white;
  padding: 50px;
  display:flex; 
  justify-content:center; 
- align-items:center; 
+ align-items:center;          
 } 
 
 .main-content img {
@@ -157,6 +159,7 @@ form {
 }
 
 .paquetes-content {
+  flex-direction: column;
   position: relative;
   background-image: linear-gradient(to right, #000046, #1CB5E0);
   color: white;
@@ -166,6 +169,7 @@ form {
  } 
  
  .paquetes-content img {
+  flex-direction: column;
     text-align: center;
     max-width :50%;
     height : 50% ;
@@ -181,6 +185,7 @@ form {
 }
 
 footer {
+  flex-direction: column;
   background-color: #003646; 
   color: white;
   padding: 20px;
@@ -281,6 +286,7 @@ section {
   justify-content: space-between;
 }
 .tour-card {
+  flex-direction: column;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -852,11 +858,11 @@ h1 {
 }
 
 .marcas{
-  display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   padding: 100px;
-  height: 75;
-  width: 75;
+  height: 80;
+  width: 80;
   background-color: #f8f8f8;
 }
 .marcas img {
