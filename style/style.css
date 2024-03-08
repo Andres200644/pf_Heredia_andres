@@ -281,6 +281,7 @@ section {
   margin: 10px;
 }
 .destinos img {
+  flex-direction: column;
   width: 100%; 
   height: auto; 
   justify-content: space-between;
@@ -866,7 +867,8 @@ h1 {
   background-color: #f8f8f8;
 }
 .marcas img {
-  height: 80px;
+justify-content:center ;  
+height: 80px;
   width: auto;
 }
 
@@ -889,6 +891,7 @@ div h2{
   margin-bottom: 1em;
 }
 .card {
+  flex-direction: column;
   width: 25%;
   margin: 20px;
   padding: 10px;
@@ -898,6 +901,7 @@ div h2{
 }
 
 .vuelos-card img {
+  flex-direction: column;
   width: 100%;
   border-radius: 5px 5px 0 0;
 }
