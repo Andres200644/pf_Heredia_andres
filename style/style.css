@@ -759,6 +759,7 @@ main h2 {
 }
 
 .hoteles {
+  flex-direction: column;
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -768,6 +769,7 @@ main h2 {
 }
 
 .hoteles img {
+  flex-direction: column;
 width: 400px; 
 height: 250px; 
 object-fit: cover; 
@@ -928,6 +930,39 @@ h1 {
 .btn-details:hover {
   background-color: #2980b9;
 } 
+.packages {
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.packages img {
+  max-width: 100%;
+}
+
+.packages h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin: 10px 0;
+}
+
+.packages p {
+  font-size: 1.5rem;
+  margin-top: 10px;  
+  margin: 5px 0;
+}
+
+.packages .price {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #e74c3c;
+}
 .discount {
   color: #e74c3c;
   font-weight: bold;
