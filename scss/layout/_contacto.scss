@@ -1,51 +1,25 @@
 // Variables
-$color-primario: #ffffff; // blanco
-$color-secundario: #0000ff; // azul
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
 
-// Estilos generales
-body {
-  font-family: Arial, sans-serif;
-  color: $color-primario;
-  background-color: $color-secundario;
-}
-
-// Navegación
-nav {
-  ul {
-    list-style-type: none;
-    li {
-      display: inline;
-      margin-right: 1em;
-      a {
-        text-decoration: none;
-        color: inherit;
-      }
-    }
+// Estilos para el formulario de contacto
+.contact-form {
+  font: 100% $font-stack;
+  color: $primary-color;
+  
+  label {
+    font-weight: bold;
   }
-}
-
-// Formulario de contacto
-.contacto {
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-
-    input, textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 20px;
-      border: 1px solid $color-secundario;
-      border-radius: 5px;
-    }
-
-    button {
-      padding: 10px 20px;
-      background-color: green;
-      color: $color-primario;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
+  
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  button {
+    background-color: blue;
+    color: white;
+    border-radius: 0.3em;
   }
 }
