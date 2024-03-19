@@ -2,7 +2,6 @@
 $color-primario: #ffffff; // blanco
 $color-secundario: #0000ff; // azul
 
-
 // Estilos generales
 body {
   font-family: Arial, sans-serif;
@@ -55,17 +54,6 @@ nav {
         margin: 0;
         font-size: 1em;
       }
-    }
-  }
-}
-
-// Media Queries
-@media (max-width: 768px) {
-  .ofertas {
-    flex-direction: column;
-
-    .oferta {
-      width: 100%;
     }
   }
 }

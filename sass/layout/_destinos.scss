@@ -1,59 +1,41 @@
 // Variables
-$color-primario: #ffffff; // blanco
-$color-secundario: #0000ff; // azul
+$color-primario: #ffffff; 
+$color-secundario: #0000ff; 
 
-// Estilos generales
-body {
-  font-family: Arial, sans-serif;
-  color: $color-primario;
-  background-color: $color-secundario;
+
+/.product-card {
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
 }
 
-// Navegación
-nav {
-  ul {
-    list-style-type: none;
-    li {
-      display: inline;
-      margin-right: 1em;
-      a {
-        text-decoration: none;
-        color: inherit;
-      }
-    }
-  }
+.product-card img {
+  max-width: 20%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
-// Sección de destinos
-.destinos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.product-name {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
 
-  .destino {
-    width: calc(100% / 3 - 20px);
-    margin-bottom: 20px;
-    border: 1px solid $color-secundario;
-    border-radius: 10px;
-    overflow: hidden;
+.product-color {
+ color: #777; 
+ margin-bottom:10px; 
+}
 
-    img {
-      width: 100%;
-      height: auto;
-    }
+.product-price{
+ font-weight:bold; 
+ font-size :1.2rem; 
+ margin-bottom :10px; 
+}
 
-    .info {
-      padding: 10px;
-
-      h2 {
-        margin: 0;
-        font-size: 1.2em;
-      }
-
-      p {
-        margin: 0;
-        font-size: 1em;
-      }
-    }
-  }
+.product-financing { 
+ font-size :0.9rem; 
+ color:#888 ; 
+ margin-bottom :10px;  
 }

@@ -24,36 +24,32 @@ nav {
   }
 }
 
-// Sección de hoteles
-.hoteles {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+// Estilos para las tarjetas de hoteles
+.hotel-card {
+  @include borde-redondeado(10px);
+  background: $color-secundario;
+  padding: 20px;
 
-  .hotel {
-    width: calc(100% / 3 - 20px);
-    margin-bottom: 20px;
-    border: 1px solid $color-secundario;
-    border-radius: 10px;
-    overflow: hidden;
+  .hotel-nombre {
+    font-size: 1.5em;
+  }
 
-    img {
-      width: 100%;
-      height: auto;
-    }
+  .precio {
+    color: $color-primario;
+    font-weight: bold;
+  }
+}
+.hotel-card {
+  @include borde-redondeado(10px);
+  background: $color-secundario;
+  padding: 20px;
 
-    .info {
-      padding: 10px;
+  .hotel-nombre {
+    font-size: 1.5em;
+  }
 
-      h2 {
-        margin: 0;
-        font-size: 1.2em;
-      }
-
-      p {
-        margin: 0;
-        font-size: 1em;
-      }
-    }
+  .precio {
+    color: $color-primario;
+    font-weight: bold;
   }
 }

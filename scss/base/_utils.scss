@@ -1,0 +1,26 @@
+// Mixin para generar botones
+@mixin boton($color-fondo, $color-texto) {
+    background-color: $color-fondo;
+    color: $color-texto;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+  
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  
+  // Mixin para generar transiciones
+  @mixin transicion($propiedades, $tiempo: 0.3s, $tipo: ease) {
+    transition: $propiedades $tiempo $tipo;
+  }
+  
+  // Función para convertir px a rem
+  @function rem($px) {
+    @return #{$px / 16}rem;
+  }
+  
