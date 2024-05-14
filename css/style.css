@@ -1,35 +1,38 @@
 @media screen and (max-width: 768px) {
   body {
-      background-color: white;
+    background-color: white;
   }
 }
 
 @media screen and (max-width: 480px) {
   body {
-      background-color: white;
-  }
-}
-@media screen and (max-width: 600px) {
-  body {
-      font-size: 14px; 
-      background-color: white; 
-     
+    background-color: white;
   }
 }
 
-body, html {
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+    background-color: white;
+
+  }
+}
+
+body,
+html {
   margin: 0;
   padding: 0;
 }
 
-body h1{
- text-align: center;
+body h1 {
+  text-align: center;
 }
 
-div h1{
+div h1 {
   text-align: center;
- }
- .header {
+}
+
+.header {
   background-size: cover;
   color: white;
   padding: 50px;
@@ -50,6 +53,45 @@ p {
 
 form {
   display: flex;
+}
+/* BARRA BUSQUEDA ------------------------------------------------------------------------------*/
+.barra-busqueda {
+  display: flex;
+  justify-content: center;
+  background-color: #f9f9f9;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  flex-grow: 1;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  width: 80%;
+  min-width: 700px;
+  margin-right: 0;
+  min-height: 100%;
+}
+
+.form-control:focus {
+  outline: none;
+  border: 1.8px solid #007bff;
+}
+
+.btn {
+  padding: 15px 40px;
+  background-color: #333;
+  border: none;
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+
+}
+
+.btn:hover {
+  background-color: #007bff;
 }
 .product-card {
   background-color: #ffffff;
@@ -113,47 +155,47 @@ form {
 
 .navbar {
   display: flex;
-  align-items: center; 
-  background-color: #003646; 
-  color: white; 
-  padding: 20px; 
+  align-items: center;
+  background-color: #003646;
+  color: white;
+  padding: 20px;
   text-align: center;
   justify-content: center;
   font-size: 20px;
 }
 
 #logo {
-  width: 120px; 
-  height: 120px; 
-  border-radius: 120%; 
-  overflow: hidden; 
-  margin-right: 20px; 
+  width: 120px;
+  height: 120px;
+  border-radius: 120%;
+  overflow: hidden;
+  margin-right: 20px;
   float: left;
 }
 
 .navbar a {
-  color: white; 
-  text-decoration: none; 
+  color: white;
+  text-decoration: none;
   margin-right: 20px;
 }
 
 .navbar a:hover {
-  color: #1CB5E0; 
+  color: #1CB5E0;
 }
 
 .main-content {
- background-image: linear-gradient(to right, #000046, #1CB5E0);
- color: white;
- padding: 50px;
- display:flex; 
- justify-content:center; 
- align-items:center; 
-} 
+  background-image: linear-gradient(to right, #000046, #1CB5E0);
+  color: white;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .main-content img {
-   max-width :30%;
-   height : auto ;
-   justify-content: end;
+  max-width: 30%;
+  height: auto;
+  justify-content: end;
 }
 
 .paquetes-content {
@@ -161,27 +203,27 @@ form {
   background-image: linear-gradient(to right, #000046, #1CB5E0);
   color: white;
   padding: 8px;
-  display:flex; 
-  justify-content:center; 
- } 
- 
- .paquetes-content img {
-    text-align: center;
-    max-width :50%;
-    height : 50% ;
-    justify-content: right;
-    align-items:center; 
- }
+  display: flex;
+  justify-content: center;
+}
 
- section h1{
+.paquetes-content img {
+  text-align: center;
+  max-width: 50%;
+  height: 50%;
+  justify-content: right;
+  align-items: center;
+}
+
+section h1 {
   position: center;
-  top: 30px; 
-  left: 30px; 
+  top: 30px;
+  left: 30px;
   color: #000000;
 }
 
 footer {
-  background-color: #003646; 
+  background-color: #003646;
   color: white;
   padding: 20px;
 }
@@ -217,30 +259,31 @@ footer {
   text-align: center;
   padding-top: 20px;
 }
+
 section {
   display: flex;
   justify-content: space-around;
 }
 
 .free-cancellation {
-  background-color: #00FFAA; 
-  padding: 20px; 
+  background-color: #00FFAA;
+  padding: 20px;
 }
 
 .reviews {
-  display: flex; 
-  justify-content:space-between; 
+  display: flex;
+  justify-content: space-between;
   overflow-x: auto;/
 }
 
 .review-card {
   width: 200px;
-  margin: 10px; 
+  margin: 10px;
 }
 
 .review-card img {
-  width: 100%; 
-  height: auto; 
+  width: 100%;
+  height: auto;
 }
 
 .card {
@@ -260,26 +303,30 @@ section {
   margin: 0;
   padding: 0;
 }
+
 .destinos-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; 
-  width: 200px; 
+  flex-wrap: wrap;
+  width: 200px;
   margin: 10px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
+
 .destinos {
   border: 1px solid #ccc;
   width: 300px;
   margin: 10px;
 }
+
 .destinos img {
-  width: 100%; 
-  height: auto; 
+  width: 100%;
+  height: auto;
   justify-content: space-between;
 }
+
 .tour-card {
   background-color: #fff;
   border-radius: 10px;
@@ -304,6 +351,7 @@ section {
   font-size: 1rem;
   margin: 5px 0;
 }
+
 .agregar-carrito {
   background-color: #550000;
   color: #fff;
@@ -316,6 +364,7 @@ section {
 .agregar-carrito:hover {
   background-color: #0056b3;
 }
+
 .container-contacto {
   max-width: 500px;
   margin: 0 auto;
@@ -326,15 +375,18 @@ section {
   height: 80px;
   width: 100%;
 }
+
 h2 {
   text-align: center;
   color: #333;
 }
+
 label {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
 }
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -344,6 +396,7 @@ textarea {
   border-radius: 5px;
   margin-bottom: 20px;
 }
+
 input[type="submit"] {
   background-color: green;
   color: white;
@@ -352,9 +405,11 @@ input[type="submit"] {
   border-radius: 5px;
   cursor: pointer;
 }
+
 input[type="submit"]:hover {
   background-color: #0056b3;
 }
+
 .container-tarjetas {
   max-width: 500px;
   margin: 0 auto;
@@ -363,15 +418,18 @@ input[type="submit"]:hover {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .payment-method {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
 }
+
 .method {
   text-align: center;
 }
+
 .method img {
   max-width: 220px;
   margin-bottom: 10px;
@@ -383,7 +441,7 @@ input[type="submit"]:hover {
   justify-content: center;
   justify-items: center;
   display: block;
-    margin: auto;
+  margin: auto;
 }
 
 .tour h2 {
@@ -391,27 +449,29 @@ input[type="submit"]:hover {
   color: #333;
   text-align: center;
 }
+
 .tour-card {
-  width: 25%; 
-  box-sizing: border-box; 
+  width: 25%;
+  box-sizing: border-box;
   width: 300;
-  padding: 10px; 
+  padding: 10px;
   justify-content: space-between;
 }
 
 .tour-card img {
-  width: 100%; 
-  height: auto; 
+  width: 100%;
+  height: auto;
   justify-content: space-between;
   text-align: center;
 }
+
 .att img {
   max-width: 50%;
   height: auto;
   justify-content: center;
   justify-items: center;
   display: block;
-    margin: auto;
+  margin: auto;
 }
 
 .att-card {
@@ -441,6 +501,7 @@ input[type="submit"]:hover {
   color: red;
   font-weight: normal;
 }
+
 .likes {
   color: #ff6347;
 }
@@ -461,6 +522,7 @@ input[type="submit"]:hover {
 .destination-card img {
   max-width: 100%;
 }
+
 .lugar {
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -488,30 +550,39 @@ input[type="submit"]:hover {
   font-weight: bold;
   color: #e74c3c;
 }
+
 .destinos-content {
   padding: 15px;
 }
+
 .attraction-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .attraction {
   border: 1px solid #ccc;
   width: 200px;
   margin: 10px;
 }
+
 .attraction img {
   width: 100%;
   height: auto;
 }
+
 .attraction-content {
   padding: 15px;
 }
-.attraction-content h4, .attraction-content p {
+
+.attraction-content h4,
+.attraction-content p {
   margin: 0;
 }
-.card-content h4, .card-content p {
+
+.card-content h4,
+.card-content p {
   margin: 0;
 }
 
@@ -523,6 +594,7 @@ input[type="submit"]:hover {
 .savings {
   color: rgb(2, 1, 1);
 }
+
 .button {
   background-color: #4CAF50;
   border: none;
@@ -535,6 +607,7 @@ input[type="submit"]:hover {
   margin: 4px 2px;
   cursor: pointer;
 }
+
 main h2 {
   color: black;
   text-align: center;
@@ -556,6 +629,7 @@ main h2 {
   justify-content: space-between;
 
 }
+
 .ad-container {
   display: flex;
   justify-content: space-between;
@@ -585,6 +659,7 @@ main h2 {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
 }
+
 .logos-container {
   display: flex;
   justify-content: space-between;
@@ -624,6 +699,7 @@ main h2 {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
 }
+
 .airline-container {
   max-width: 800px;
   margin: auto;
@@ -649,6 +725,7 @@ main h2 {
   height: auto;
   margin-bottom: 10px;
 }
+
 .car-rental {
   max-width: 1200px;
   margin: auto;
@@ -670,7 +747,8 @@ main h2 {
   height: auto;
 }
 
-.car h2, .car p {
+.car h2,
+.car p {
   margin: 5px 0;
   font-weight: bold;
 }
@@ -692,14 +770,14 @@ main h2 {
 }
 
 .hoteles img {
-width: 450px; 
-height: 250px; 
-object-fit: cover; 
-max-width: 100%;
-height: auto;
-border-radius: 8px;
-justify-content: center;
-object-fit: cover;
+  width: 450px;
+  height: 250px;
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  justify-content: center;
+  object-fit: cover;
 }
 
 .hoteles h2 {
@@ -724,14 +802,16 @@ object-fit: cover;
   font-size: 1.2rem;
   color: #0074d9;
 }
+
 .plane {
   border: 1px solid #ccc;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   font-size: 24%;
   height: 250px;
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -756,23 +836,27 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
+
 h1 {
   color: #333;
   font-size: 24px;
   margin-bottom: 20px;
 }
+
 .hotel-list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   float: left;
-  justify-content: center ;
+  justify-content: center;
 }
+
 .hotel-card {
   background-color: #fff;
   border-radius: 8px;
@@ -787,22 +871,26 @@ h1 {
   height: auto;
   border-radius: 4px;
 }
+
 .hotel-name {
   font-size: 18px;
   font-weight: bold;
   margin-top: 10px;
 }
+
 .hotel-details {
   font-size: 14px;
   color: #777;
   margin-top: 10px;
 }
+
 .hotel-price {
   font-size: 16px;
   font-weight: bold;
   color: #e74c3c;
   margin-top: 10px;
 }
+
 .package {
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -816,26 +904,32 @@ h1 {
   width: 100%;
   border-radius: 10px;
 }
+
 .package h2 {
   font-size: 1.2rem;
   margin: 10px 0;
 }
+
 .package h3 {
   font-size: 1rem;
   margin: 5px 0;
 }
+
 .package p {
   font-size: 0.9rem;
   margin: 5px 0;
 }
+
 .price {
   color: #007bff;
   font-weight: bold;
 }
+
 .savings {
   color: #a72828;
   font-weight: bold;
 }
+
 .btn-details {
   background-color: #3498db;
   color: #fff;
@@ -845,21 +939,25 @@ h1 {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+
 .btn-details:hover {
   background-color: #2980b9;
-} 
+}
+
 .discount {
   color: #e74c3c;
   font-weight: bold;
 }
+
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
 .container {
   padding: 10px 16px;
 }
 
-.marcas{
+.marcas {
   display: flex;
   justify-content: space-between;
   padding: 100px;
@@ -867,12 +965,13 @@ h1 {
   width: 75;
   background-color: #f8f8f8;
 }
+
 .marcas img {
   height: 80px;
   width: auto;
 }
 
-div h2{
+div h2 {
   text-align: center;
 }
 
@@ -881,15 +980,18 @@ div h2{
   font-size: 2em;
   margin-bottom: 1em;
 }
+
 .container {
   width: 60%;
   margin: auto;
 }
+
 .title {
   text-align: center;
   font-size: 2em;
   margin-bottom: 1em;
 }
+
 .card {
   width: 25%;
   margin: 20px;
@@ -913,9 +1015,11 @@ div h2{
   font-size: 1rem;
   margin: 5px 0;
 }
+
 .image-container img {
-    width: 30%;
+  width: 30%;
 }
+
 .button {
   display: block;
   width: 100%;
@@ -926,6 +1030,7 @@ div h2{
   cursor: pointer;
   text-align: center;
 }
+
 .advertisement {
   clear: both;
   padding: 1em;
@@ -937,6 +1042,7 @@ div h2{
   width: 80%;
   margin: auto;
 }
+
 .contact-form {
   width: 50%;
   margin: auto;
@@ -966,7 +1072,9 @@ form {
   margin: 0 auto;
 }
 
-input[type=text], input[type=email], textarea {
+input[type=text],
+input[type=email],
+textarea {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -1005,11 +1113,13 @@ button:hover {
 }
 
 .hotel-card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
 .container::after {
   content: "";
   clear: both;
@@ -1021,21 +1131,12 @@ button:hover {
   font-size: 18px;
 }
 
-.mi-imagen{
-  width: 1000px;  
-  height: 400px; 
+.mi-imagen {
+  width: 1000px;
+  height: 400px;
 }
 
-.logo {
-  float: left;
-  width: 25px;
-  height: 25px;
-  background: #ddd;
-  border-radius: 50%;
-  line-height: 50px;
-  text-align: center;
-  margin-right: 10px;
-}
+
 
 .service-card {
   width: 200px;
@@ -1043,12 +1144,15 @@ button:hover {
   margin: 10px;
   padding: 10px;
 }
+
 .service-card img {
   width: 100%;
 }
+
 .service-card h2 {
   margin: 0 0 10px 0;
 }
+
 .card {
   max-width: 400px;
   text-align: center;
@@ -1077,48 +1181,34 @@ button:hover {
   padding: 10px;
 }
 
-.volaris-3{
-  border-radius: 120%; 
+.volaris-3 {
+  border-radius: 120%;
 
 }
 
 .container {
-    width: 95%;
-    margin: auto;
-    justify-content: center;
-    
+  width: 95%;
+  margin: auto;
+  justify-content: center;
+
 }
+
 .payment-method {
-    border: 1px solid #ccc;
-    padding: 70px;
-    margin-bottom: 60px;
-    text-align: center; 
-    justify-content: center;
-    align-items: center
-    ;
+  border: 1px solid #ccc;
+  padding: 70px;
+  margin-bottom: 60px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
+
 .payment-method h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
+
 .payment-method img {
-    width: 90%; 
-    height: auto;
-    display: block; 
-    margin: auto;
-}
-
-
-@media (min-width: 768px) {
-  .events-card {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 1%;
-      padding: 20px;
-  }
-}
-
-@media (max-width: 767px) {
-  .card-text {
-      display: none;
-  }
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: auto;
 }
